@@ -1,5 +1,19 @@
 'use strict';
 
 function collectSameElements(collectionA, collectionB) {
-  return 'Implement the practice require, and begin changing code in this row';
+
+  var result = [];
+
+  for(var i = 0; i<collectionA.length; i++){
+    var str1 = collectionA[i];
+    for(var j = 0; j<collectionB.length; j++){
+      var str2 = collectionB[j];
+      if(str1 === str2) {
+        result.push(str2);
+      }
+    }
+  }
+
+
+  return result;
 }

@@ -9,7 +9,6 @@ describe('practice-1-1', () => {
   it('Get the same elements both in Collection A and Collection B', () => {
 
     const result = collectSameElements(collectionA, collectionB);
-
     expect(result).toEqual(['a', 'e', 'f', 'd']);
   });
 });

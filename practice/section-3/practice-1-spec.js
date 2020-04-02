@@ -21,6 +21,8 @@ describe('practice-3-1', () => {
 
     const result = createUpdatedCollection(collectionA, objectB);
 
+
+
     expect(result).toEqual([
       {key: 'a', count: 1},
       {key: 'e', count: 1},
